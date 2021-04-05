@@ -1,0 +1,14 @@
+*.out
+*.compile
+*.cma
+*.cmj
+*.bak
+*.bs.js
+lib/bs
+.vscode
+.merlin
+.bsb.lock
+www/
+/node_modules/
+package-lock.json
+platforms
