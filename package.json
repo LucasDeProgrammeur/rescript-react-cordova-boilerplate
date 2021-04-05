@@ -1,0 +1,37 @@
+{
+  "name": "cordovaapifeatures",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "webpack",
+    "server": "moduleserve ./ --port 8000 --spa",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Lucas",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "cordova-android": "^9.0.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "description": "``` npm run build ```",
+  "main": "index.js",
+  "dependencies": {
+    "copy-webpack-plugin": "^8.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "moduleserve": "^0.9.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": "^0.9.1",
+    "string-replace-loader": "^3.0.1",
+    "webpack": "^5.30.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
