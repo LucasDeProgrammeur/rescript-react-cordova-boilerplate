@@ -19,8 +19,7 @@ sudo update-alternatives --config java
 Java 8 openJDK will work with Cordova.
 These are the environment variables I am using for Android (edit any line that is user specific, if you are going to copy it over):
 ```
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export ANDROID_SDK_ROOT=/home/lucas/Android/Sdk/
 export PATH=${PATH}:/Development/android-sdk/platform-tools:/Development/android-sdk/tools
 ```
