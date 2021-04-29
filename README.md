@@ -8,6 +8,11 @@ For Android development, you will need Android Studio, as well as a working AVD 
 # Cordova installation
 https://cordova.apache.org/#getstarted
 You will need to install Cordova globally. You will need to set environment variables as well. This can be done in Linux by editing ~/.bashrc.
+Clone the repository, then add any platform you want to add
+# Cordova add platforms (Android as an example)
+```
+cordova platform add android
+```
 To check whether the environment variables are set correctly (for example for Android), use:
 ```
 cordova requirements android
@@ -24,10 +29,7 @@ export ANDROID_SDK_ROOT=/home/lucas/Android/Sdk/
 export PATH=${PATH}:/Development/android-sdk/platform-tools:/Development/android-sdk/tools
 ```
 
-# Cordova add platforms (Android as an example)
-```
-cordova platform add android
-```
+
 # Run your application in a browser
 Create a terminal instance and use:
 ```
